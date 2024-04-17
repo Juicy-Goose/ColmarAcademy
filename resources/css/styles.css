@@ -41,7 +41,7 @@ nav ul li {
     margin-right: 16px;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: black;
 }
@@ -55,7 +55,8 @@ a {
 
 .banner img {
     margin: 32px 24px;
-    
+    max-width: 60%;
+    max-height: auto;
 }
 
 /*.intro-statement {
@@ -97,4 +98,90 @@ a {
     padding: 8px;
     display: flex;
     justify-content: center;
+}
+
+/*--Main--*/
+
+.info {
+    display: flex;
+    width: 100%;
+}
+
+article {
+    padding: 32px 24px;
+    align-content: normal;
+    /*background-color: blue;*/
+    max-width: 60%;
+    max-height: auto;
+    border-right: 1px solid lightgrey;
+}
+
+article img {
+    width: 100%;
+}
+
+article h2 {
+    font-size: 40px;
+    color: #4a4a4a;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+#quote {
+    font-size: 20px;
+}
+
+#author {
+    margin-top: 35px;
+    font-size: 18px;
+}
+
+/*.sections {
+    background-color: red;
+    border-left: 1px solid grey;
+    padding-top: 16px;
+    padding-bottom: 32px;
+    align-content: normal;
+
+    width: 40%;
+    height: auto;
+}*/
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 15px;
+    margin-bottom: 31px;
+}
+
+
+section {
+    display: flex;
+    border: 1px solid lightgray;
+    /*padding: 16px;*/
+}
+
+section img {
+    height: auto;
+    width: 35%;
+    margin: 16px;
+}
+
+.section-text h3 {
+    font-size: 30px;
+}
+
+.section-text p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+#link {
+    text-decoration: none;
+}
+
+#highlighted {
+    background-color: lightgrey;
 }
