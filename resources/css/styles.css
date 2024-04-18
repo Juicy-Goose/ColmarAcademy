@@ -117,7 +117,8 @@ article {
 }
 
 article img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 article h2 {
@@ -184,4 +185,60 @@ section img {
 
 #highlighted {
     background-color: lightgrey;
+}
+
+/*--Learning--*/
+
+.learning {
+    background-color: lightgray;
+    width: 100%;
+}
+
+.learning h2 {
+    font-size: 40px;
+    color: #4a4a4a;
+    margin-top: 32px;
+    text-align: center;
+}
+
+.learning-container {
+    /*background-color: red;*/
+    margin: 16px 56px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.learning-box {
+    background-color: white;
+    margin: 16px;
+    /*max-width: 532px;*/
+    width: 31.5%;
+    height: auto;
+    align-content: normal;
+}
+
+.learning-box img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.learning-text {
+    padding: 16px;
+    line-height: 1.5;
+}
+
+.learning-text h3 {
+    font-size: 30px;
+    color: #4a4a4a;
+}
+
+#courses {
+    padding: 8px 0px;
+}
+
+.learning-text p {
+    font-size: 20px;
+    color: #8a8a8a;
 }
