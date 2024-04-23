@@ -9,7 +9,7 @@ p {
 
 /*--Desktop Header--*/
 @media only screen and (min-width: 501px){
-    .Mobile-header, .Mobile-banner, .Mobile-img, .Mobile-learning {
+    .Mobile-header, .Mobile-banner, .Mobile-img, .Mobile-learning, #Mobile {
         display: none;
     }
 }
@@ -236,7 +236,7 @@ article h2 {
     display: block;
     flex-direction: column;
     align-content: normal;
-    width: 40%;
+    width: 100%;
     margin-top: 15px;
     margin-bottom: 31px;
 }
@@ -359,6 +359,22 @@ section img {
 
 /*--Thesis--*/
 
+/*--Mobile thesis*/
+@media only screen and (max-width: 500px){
+    .Desktop-thesis {
+        display: none;
+    }
+
+    #Mobile {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    #thesis-title {
+        padding-bottom: 16px !important;
+    }
+}
+
 .thesis {
     display: flex;
 }
@@ -391,12 +407,28 @@ article video {
     margin-bottom: 32px;
 }
 
+.Desktop-thesis {
+    align-content: normal;
+}
+
 .thesis .sections {
     margin-top: 0px;
     margin-right: 8px;
 }
 
 /*--Footer--*/
+/*--Mobile footer--*/
+@media only screen and (max-width: 500px){
+    footer {
+        padding-bottom: 16px !important;
+        border-top: none !important;
+    }
+
+    footer ul li{
+        display: none;
+    }
+}
+
 footer {
     padding: 16px 24px 50px;
     display: flex;
